@@ -1,3 +1,7 @@
+import "./styles/global.scss";
+
 export function App() {
-  return <h1>Hello World|</h1>;
+  // throw new Error("Eita giovana o forninho caiu");
+
+  return <h1>Hello ReactJS</h1>;
 }
