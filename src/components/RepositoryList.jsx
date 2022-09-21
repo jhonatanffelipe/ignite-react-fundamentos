@@ -13,7 +13,7 @@ export function RepositoryList() {
       method: "get",
       url: "https://api.github.com/users/jhonatanffelipe/repos",
     })
-      .then((response) => setRepositories(...repositories, response.data))
+      .then((response) => setRepositories(response.data))
       .catch((error) => {
         console.log(error);
       });
